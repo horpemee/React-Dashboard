@@ -24,6 +24,7 @@ const New = ({ title, inputs }) => {
                   ? URL.createObjectURL(file)
                   : "https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg"
               }
+              alt="display"
             />
           </div>
           <div className="right">
